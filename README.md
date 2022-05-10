@@ -2,6 +2,7 @@
 
 Extracts apparel details from amazon api and recommends similar products using nltk and keras
 ![](images/recommendation.jpg)
+<br>
 ## OVERVIEW
 Personalized product recommendations are the alternative way of navigating through the online shop. More people find products they need. Even if they didn’t think of them. Build a recommendation engine which suggests similar products to the given product in any e-commerce websites ex. Amazon.com, myntra.com etc.
 <br> In this project we used Amazon’s Product Advertising API to obtain the data in a policy complaint manner, and we acquired data for 1,83,000 products.For each product we obtained Image-url, Title, price etc.For this project we primarily focussed on Women’s Apparel data. Amazon’s Product Advertising API can be used to extract data for other products as well.
@@ -19,8 +20,9 @@ Each of those images will be recommended based on following fields:
 ```
 ### Data Preprocessing
 * We remove all those data points in which any of the attribute information is missing.
-* Remove near duplicates item : 
+* Remove near duplicates item : <br>
 ![](images/near_dupli.png) 
+<br>
 ![](images/same_color.png)
 * Removed the duplicates which differ only at the end.
 * Text-Preprocessing : Stop words removal
