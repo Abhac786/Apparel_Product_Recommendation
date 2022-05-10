@@ -66,6 +66,6 @@ We found that the order of the best recommendation performance is as follows
 ```
 
 <p float="left">
-<img src="images/comparison1.png" width="400">
-<img src="images/comparison2.png" width="400">
+<img src="images/comparison1.png" width="500">
+<img src="images/comparison2.png" width="500">
 <p>
