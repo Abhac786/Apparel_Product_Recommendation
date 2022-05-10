@@ -17,6 +17,14 @@ Each of those images will be recommended based on following fields:
 6. title (title of the product.)
 7. formatted_price (price of the product)
 ```
+### Data Preprocessing
+* We remove all those data points in which any of the attribute information is missing.
+* Remove near duplicates item : 
+![](images/near_dupli.jpg) 
+![](images/same_color.jpg)
+* Removed the duplicates which differ only at the end.
+* Text-Preprocessing : Stop words removal
+
 We are going to use a total of `seven approaches` for recommending the apparel as following.
 ```
 1.Bag of words model
