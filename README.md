@@ -20,8 +20,8 @@ Each of those images will be recommended based on following fields:
 ### Data Preprocessing
 * We remove all those data points in which any of the attribute information is missing.
 * Remove near duplicates item : 
-![](images/near_dupli.jpg) 
-![](images/same_color.jpg)
+![](images/near_dupli.png) 
+![](images/same_color.png)
 * Removed the duplicates which differ only at the end.
 * Text-Preprocessing : Stop words removal
 
